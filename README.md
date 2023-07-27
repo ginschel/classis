@@ -1,7 +1,7 @@
 # classis - Commandline Assistant
 Just an easy cli for the terminal fans out there who want to access Open Assistant's API through the terminal or want to use the API in their own aplications! 
 
-![ClAssis](https://github.com/ginschel/classist/blob/master/classis.gif)
+![ClAssis](https://github.com/ginschel/classis/blob/master/classis.gif)
 
 
 ## Benefits of classis
