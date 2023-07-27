@@ -1,21 +1,21 @@
-# classist - Commandline Assistant
+# classis - Commandline Assistant
 Just an easy cli for the terminal fans out there who want to access Open Assistant's API through the terminal or want to use the API in their own aplications! 
 
-![ClAssist](https://github.com/ginschel/classist/blob/master/classist.gif)
+![ClAssis](https://github.com/ginschel/classist/blob/master/classis.gif)
 
 
-## Benefits of classist
+## Benefits of classis
 The program is easily extendible and abides the UNIX philosophy. Since it's written in Python it can be used platform independently! You can include it easily in your Python or bash scripts. For instance, you could pipe its output to another program or write its output to a file with a bash script.
 ```
-classist "Who is Marcus Aurelius?" | cat
+classis "Who is Marcus Aurelius?" | cat
 ```
 Moreover, you wont have to rely on your browser to access the API of Open Assistant and you will be able to just use a simple command line prompt which is really comfortable!
 
 ## Usage
-It's quite easy to use. Just write your prompt after classist surrounded by quotation marks and you will be good to go.
+It's quite easy to use. Just write your prompt after classis surrounded by quotation marks and you will be good to go.
 
 ```
-classist "What is a terminal?"
+classis "What is a terminal?"
 ```
 It will output:
 ```
@@ -25,14 +25,14 @@ Quite easy to use, isn't it?
 
 If you want to make more prompts than one, just write -chat after your prompt and you will be able to chat with the API.
 ```
-classist "What is a terminal?" -chat
+classis "What is a terminal?" -chat
 ```
 To stop the chat, write:
 ```
 exit
 ```
 ## Dependencies
-classist should normally install out of the box when using the install.sh script. Nevertheless, the installer can get into troubles if Python and pip aren't installed on your computer.
+classis should normally install out of the box when using the install.sh script. Nevertheless, the installer can get into troubles if Python and pip aren't installed on your computer.
 Other dependencies/Python-Modules that normally should be installed by the install script are:
  - python-dotenv
  - langchain
@@ -42,25 +42,25 @@ Other dependencies/Python-Modules that normally should be installed by the insta
 ### Clone the Repo:
 Clone the repository. 
 ```
-git clone https://github.com/ginschel/classist.git
+git clone https://github.com/ginschel/classis.git
 ```
 ### Run the installation script
 ```
-cd classist && sh install.sh
+cd classis && sh install.sh
 ```
 
 ### HuggingFace API Token 
 
 You will need an API token to run this, get a free HuggingFace API token from [here](https://huggingface.co/settings/tokens)
 
-Now run classist with the -c subcommand and input your token as an argument.
+Now run classis with the -c subcommand and input your token as an argument.
 
 
 ```
-classist -c yourapitoken
+classis -c yourapitoken
 ```
-Congratulations classist has been set up on your machine!
+Congratulations classis has been set up on your machine!
 
 ## Changing the model
-In case you want to use another model, change the modelname variable in the #config sction in the python script that is now located in ~/local/bin/classist-files
+In case you want to use another model, change the modelname variable in the #config sction in the python script that is now located in ~/local/bin/classis-files
 
