@@ -53,7 +53,7 @@ cd classist && sh install.sh
 
 You will need an API token to run this, get a free HuggingFace API token from [here](https://huggingface.co/settings/tokens)
 
-Now run classist with the -c subcommand and give your token as an argument.
+Now run classist with the -c subcommand and input your token as an argument.
 
 
 ```
