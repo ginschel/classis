@@ -48,12 +48,6 @@ git clone https://github.com/ginschel/classist.git
 ```
 cd classist && sh install.sh
 ```
-### Environment Setup
-Install all of the requirements to run the python script:
-
-```
-pip install -r requirements.txt
-```
 
 ### HuggingFace API Token 
 
