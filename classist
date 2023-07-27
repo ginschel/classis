@@ -1,0 +1,11 @@
+#!/bin/bash
+if [[ $1 == "-c" ]]; then
+    if [[ $2 == "" ]]; then
+        echo "You have to input a token to configure your command line assistant!"
+    else
+        echo "token set"
+        printf "HUGGINGFACEHUB_API_TOKEN=$2" > ~/.local/bin/classist_files/.env
+    fi
+else
+python3 ~/.local/bin/classist_files/assistant-cli.py "$@"
+fi
