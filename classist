@@ -1,4 +1,5 @@
 #!/bin/bash
+source ~/.local/bin/classist_files/classist/bin/activate
 if [[ $1 == "-c" ]]; then
     if [[ $2 == "" ]]; then
         echo "You have to input a token to configure your command line assistant!"
