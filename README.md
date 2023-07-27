@@ -31,7 +31,12 @@ To stop the chat, write:
 ```
 exit
 ```
-
+## Dependencies
+classist should normally install out of the box when using the install.sh script. Nevertheless, the installer can get into troubles if Python and pip aren't installed on your computer.
+Other dependencies/Python-Modules that normally should be installed by the install script are:
+ - python-dotenv
+ - langchain
+ - huggingface_hub
 ## Installation
 
 ### Clone the Repo:
