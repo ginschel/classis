@@ -1,7 +1,7 @@
 # ClAssist - Commandline Assistant
 Just an easy cli for the terminal fans out there who want to access Open Assistant's API through the terminal or want to use the API in their own aplications! 
 
-![ClAssist](https://github.com/ginschel/classist/classist.gif)
+![ClAssist](https://github.com/ginschel/classist/blob/master/classist.gif)
 
 
 ## Benefits of ClAssist
