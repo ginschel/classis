@@ -32,7 +32,7 @@ To stop the chat, write:
 exit
 ```
 ## Dependencies
-classis should normally install out of the box when using the install.sh script. Nevertheless, the installer can get into troubles if Python and pip aren't installed on your computer.
+classis should normally install out of the box when using the install.sh script under an arch-based distro. Nevertheless, the installer can get into troubles if Python, venv (only on arch-based distros) and pip aren't installed on your computer.
 Other dependencies/Python-Modules that normally should be installed by the install script are:
  - python-dotenv
  - langchain
@@ -45,10 +45,14 @@ Clone the repository.
 git clone https://github.com/ginschel/classis.git
 ```
 ### Run the installation script
+For arch-based distros:
 ```
 cd classis && sh install.sh
 ```
-
+For debian-based distros (Ubuntu, Linux Mint, etc.):
+```
+cd classis && sh debian_install.sh
+```
 ### HuggingFace API Token 
 
 You will need an API token to run this, get a free HuggingFace API token from [here](https://huggingface.co/settings/tokens)
