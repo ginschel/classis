@@ -1,10 +1,10 @@
-# ClAssist - Commandline Assistant
+# classist - Commandline Assistant
 Just an easy cli for the terminal fans out there who want to access Open Assistant's API through the terminal or want to use the API in their own aplications! 
 
 ![ClAssist](https://github.com/ginschel/classist/blob/master/classist.gif)
 
 
-## Benefits of ClAssist
+## Benefits of classist
 The program is easily extendible and abides the UNIX philosophy. Since it's written in Python it can be used platform independently! You can include it easily in your Python or bash scripts. For instance, you could pipe its output to another program or write its output to a file with a bash script.
 ```
 classist "Who is Marcus Aurelius?" | cat
