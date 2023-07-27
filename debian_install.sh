@@ -1,6 +1,6 @@
 #!/bin/sh
+mv classis_files/classis ~/.local/bin
 mv classis_files/ ~/.local/bin
-mv classis ~/.local/bin
 chmod +x ~/.local/bin/classis
 pip install python-dotenv
 pip install langchain
