@@ -60,7 +60,7 @@ Now run classist with the -c subcommand and give your token as an argument.
 ```
 classist -c yourapitoken
 ```
-Congratulations ClAssist is set up on your machine!
+Congratulations classist has been set up on your machine!
 
 ## Changing the model
 In case you want to use another model, change the modelname variable in the #config sction in the python script that is now located in ~/local/bin/classist-files
