@@ -1,4 +1,5 @@
 #!/bin/sh
+sudo apt-get install python3.4-venv
 mv classis_files/ ~/.local/bin
 mv classis ~/.local/bin
 chmod +x ~/.local/bin/classis
